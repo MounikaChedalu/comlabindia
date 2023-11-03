@@ -7,67 +7,124 @@ body{
     color: #2e475d;
     font-size: 16px;
     line-height: 1.4;
+    
 }
 .first-heading{
   
     text-align: center;
     align-items: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 28px;
+    line-height: 36px
 }
 .container1-part{
     background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg') ;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .container1{
     justify-content: center;
-    margin-top: 60px;
     padding-top: 60px;
     display: flex;
+    margin-top: -50px;
     padding-bottom: 80px;
+    justify-content: center;
+
+}
+[ alt="banner-image"]{
+    width:350;
+    height:489;
+    margin-top: 50px;
 
 }
 .form-div{
-    background-color: lightgray;
-    padding: 10px;
-    width: 620px;
-    margin-left: 60px;
+    background-color:rgba(204,204,204,1.0);
+    padding: 10px 35px 30px 35px;
+    width: 680px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    margin-left: 40px;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-texture-bg.jpg');
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    line-height: 1;
 
 }
 .topic{
     text-align: center;
     font-size: larger;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 .form-heading{
     text-align: center;
+    margin-top: -10px;
     color:#bf2b2b;
     font-size:45px;
+
 }
 .points{
     font-size: larger;
     margin-left: 30px;
+    line-height: 1;
+    
+}
+.cost{
+    text-align: center;
+    font-weight: 600;
+    margin-top: -28px;
+}
+.free{
+    color: #bf2b2b;
+    margin-left: 3px;
 }
 .join-live{
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 4px;
     width: 580px;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: x-large;
     text-align: center;
 }
 .details{
-    font-size: large;
+    font-size: 20px;
     text-align: center;
+    line-height: 1.4;
 }
 .img1{
     appearance: none;
 }
+svg{
+    fill: #FFFFFF;
+    text-transform: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    box-sizing: border-box;
+    max-width: 60px;
+    margin-left: -280px;
+    margin-top: 10px;
+    
+}
+.btn-text{
+    margin-top: -40px;
+    margin-left: 60px;
+}
 .btn{
-    margin-left: 100px;
+    margin-left: 130px;
     background-color: #bf2b2b;
     width: 400px;
     border: none;
@@ -75,30 +132,40 @@ body{
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    height: 60px;
+    height: 70px;
     color: white;
     align-items: center;
+    cursor: pointer;
+    padding-top: -50px;
 }
 .heading3{
     text-align: center;
+    font-size: 40px;
 }
 .points2{
-    margin-left: 400px;
-    margin-top: 50px;
-    font-size:larger;
+    line-height: 1;
+    word-break: break-word;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    color: #2e475d;
+    margin-left: 350px;
+    margin-top: 10px;
+    font-size:20px;
     font-weight: 600;
+
 }
 .sub-heading3{
     text-align: center;
-    margin-top: 50px;
     font-size: 34px;
 }
 .impact{
     text-align: center;
     font-size: larger;
     font-weight: 600;
+    margin-top: -20px;
 }
 .details1{
+    margin-top: -10px;
     font-size: x-large;
     text-align: center;
 }
@@ -120,6 +187,10 @@ body{
     margin-top: -20px;
     padding-top: 40px;
 }
+.btn-text1{
+    margin-top: -50px;
+    margin-left: 60px;
+}
 .btn1{
     margin-left: 550px;
     background-color: #bf2b2b;
@@ -129,26 +200,40 @@ body{
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    height: 60px;
+    height: 70px;
     color: white;
     align-items: center;
+    cursor: pointer;
+    padding-top: -50px;
 }
 .del{
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: -20px;
+    
 
 }
 .container4-main{
     background-color: black;
     padding-top: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    word-break: break-word;
 
 
 }
 .container4{
     display: flex;
 justify-content: center;
+align-items: center;
 color: white;
 font-size: 18px;
+font-family: 'Lexend Deca', sans-serif;
+font-style: normal;
+font-weight: 300;
+margin-top: -20px;
+
+
 
 }
 .container4-heading{
@@ -159,25 +244,55 @@ font-size: 18px;
     font-weight: 600;
     padding: 2px;
 }
+.people-headings{
+    font-size: 28px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+.people-role{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: -22px;
+}
+.information{
+    font-size: 17.5px;
+}
 .Prasad-div{
     margin-left: 50px;
 }
+[alt="Prasad-image"]{
+    width: 341px;
+    height: 375px;
+}
 .Shalini-div{
     margin-left: 50px;
+    margin-top: -38px;
+}
+[alt="Shalini-image"]{
+    width: 341px;
+    height: 375px;
+
 }
 .Rajesh-div{
     margin-left: 50px;
+    margin-top: -18px;
+}
+[alt="rajesh-image"]{
+    width: 341px;
+    height: 375px;
+
 }
 
 .last-container{
     margin-top: -20px;
     padding-top: 50px;
     text-align: center;
-    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg') ;
+   background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg') ;
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     color: white;
     font-size: x-large;
 }
@@ -189,9 +304,11 @@ font-size: 18px;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    height: 60px;
+    height: 70px;
     color: white;
     align-items: center;
+    cursor: pointer;
+    padding-top: -50px;
 }
 .footer{
     background-color: black;
@@ -241,56 +358,54 @@ font-size: 18px;
     width: 30px;
     height: 30px;
     border-radius: 8px;
-    margin-left: 380px;
-    margin-top: 20px;
+    margin-left: 450px;
+    margin-top: -50px;
 
-}
-.cost{
-    text-align: center;
-    font-weight: 600;
-}
-.free{
-    color: #bf2b2b;
-    margin-left: 3px;
-}
-form{
-    border: 1px solid white;
-    width: 500px;
-    margin-left: 550px;
-    border-radius: 30px;
 }
 .heading-form{
     color: white;
 }
-.form-group {
-    margin-bottom: 15px;
-    color: white;
+.form-content {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
 }
-label {
-    display: block;
-    font-weight: bold;
+
+.form-label {
+
+    font-size: larger;
 }
-input[type="text"], input[type="email"], input[type="tel"] {
-    width: 200px;
+
+.form-input{
+    width: 100%;
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    margin: 5px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
+    font-size: 16px;
 }
-input[type="text"]:invalid, input[type="email"]:invalid, input[type="tel"]:invalid {
-    border-color: red;
+
+.form-textarea {
+    resize: vertical; 
 }
-input[type="submit"] {
-    background-color: #0073e6;
-    color: white;
+
+.form-button {
+    background-color: #007BFF;
+    color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
 }
-input[type="submit"]:hover {
-    background-color: #005bbf;
+
+.form-button:hover {
+    background-color: #0056b3;
 }
 
 @media screen and (max-width: 768px) {
@@ -309,9 +424,18 @@ input[type="submit"]:hover {
         margin-left: 0;
         text-align: center;
     }
-    .container2,
+    .container2 {
+        margin-top: -75px;
+        background-size: auto;
+        padding-left: 10px;
+         
+    }
+
     .container3 {
-        background-attachment: scroll; 
+        margin-top: 10px;
+        background-size: 100%; 
+        padding-bottom: 20px; 
+        padding-top: 20px; 
     }
     .points2 {
         margin-left: 0;
@@ -321,6 +445,23 @@ input[type="submit"]:hover {
     .btn2 {
         margin-left: 0;
         width: 100%;
+    }
+    svg{
+        width: 60%;
+        height: 60%;
+        margin-left: -130px;
+        margin-top: -10px;
+    }
+    .btn-text{
+        font-size: small;
+        margin-top: -30px;
+    }
+    .btn-text1{
+        font-size: small;
+        margin-top: -30px;
+    }
+    .del{
+        margin-top: 10px;
     }
     .join-live{
         width: 80%;
@@ -352,18 +493,38 @@ input[type="submit"]:hover {
     }
     [alt="Prasad-image"]{
         width: 70%;
+        height: 70%;
     }
     [alt="Shalini-image"]{
         width: 70%;
+        height: 70%;
     }
     [alt="rajesh-image"]{
         width: 70%;
+        height: 70%;
+    }
+    .information{
+        text-align: center;
     }
     .Prasad-div,
     .Shalini-div,
     .Rajesh-div {
         margin-left: 0;
         text-align: center;
+    }
+    .form-content {
+        max-width: 80%;
+        margin-bottom: 20px;
+        margin-right: 40px;
+
+    }
+    
+    .close-button{
+       width: 10%;
+       height: 100%;
+      margin-left: 200px;
+      margin-top: -20px;
+
     }
 }
  
