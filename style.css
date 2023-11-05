@@ -24,9 +24,9 @@ body{
 .container1-part{
     background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg') ;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 .container1{
@@ -41,16 +41,18 @@ body{
 [ alt="banner-image"]{
     width:350;
     height:489;
-    margin-top: 50px;
+    margin-left: 90px;
+    margin-top: 30px;
 
 }
+
 .form-div{
     background-color:rgba(204,204,204,1.0);
     padding: 10px 35px 30px 35px;
     width: 680px;
     font-family: 'Lexend Deca', sans-serif;
     font-style: normal;
-    margin-left: 40px;
+    margin-left: 30px;
     font-weight: 300;
     box-sizing: border-box;
     font-size: 16px;
@@ -67,6 +69,14 @@ body{
     font-family: 'Lexend Deca', sans-serif;
     font-style: normal;
     font-weight: 300;
+}
+[alt="right-icon"]{
+    width: 18px;
+    height: 18px;
+}
+.AI-empowered{
+    margin-left: 25px;
+    margin-top: -10px;
 }
 .form-heading{
     text-align: center;
@@ -170,7 +180,7 @@ svg{
     text-align: center;
 }
 .container2{
-    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner-1.jpg') !important;
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner-1.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -178,7 +188,7 @@ svg{
     padding-left: 130px;
 }
 .container3{
-    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-grey-banner.jpg') !important;
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-grey-banner.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -200,7 +210,7 @@ svg{
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    height: 70px;
+    height: 100px;
     color: white;
     align-items: center;
     cursor: pointer;
@@ -208,7 +218,7 @@ svg{
 }
 .del{
     font-size: 18px;
-    margin-top: -20px;
+    margin-top: -10px;
     
 
 }
@@ -219,19 +229,23 @@ svg{
     font-style: normal;
     font-weight: 300;
     word-break: break-word;
+    padding-bottom: 100px;
 
 
 }
 .container4{
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content:center;
 color: white;
-font-size: 18px;
+font-size: 16px;
 font-family: 'Lexend Deca', sans-serif;
 font-style: normal;
 font-weight: 300;
 margin-top: -20px;
+box-sizing: border-box;
+margin: 0 auto;
+max-width: 1140px;
+
 
 
 
@@ -259,7 +273,7 @@ margin-top: -20px;
     font-size: 17.5px;
 }
 .Prasad-div{
-    margin-left: 50px;
+    margin-left: 10px;
 }
 [alt="Prasad-image"]{
     width: 341px;
@@ -267,7 +281,6 @@ margin-top: -20px;
 }
 .Shalini-div{
     margin-left: 50px;
-    margin-top: -38px;
 }
 [alt="Shalini-image"]{
     width: 341px;
@@ -276,7 +289,6 @@ margin-top: -20px;
 }
 .Rajesh-div{
     margin-left: 50px;
-    margin-top: -18px;
 }
 [alt="rajesh-image"]{
     width: 341px;
@@ -304,7 +316,7 @@ margin-top: -20px;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    height: 70px;
+    height: 100px;
     color: white;
     align-items: center;
     cursor: pointer;
@@ -319,18 +331,20 @@ margin-top: -20px;
 }
 .img-div{
     margin-left: 180px;
+    cursor: pointer;
 }
 .privacy{
     margin-right: 150px;
+    cursor: pointer;
 }
 #registration-form-container {
     display: none;
     position: fixed;
-    top: 0;
+    top: 20%;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.595);
     z-index: 1;
     text-align: center;
     padding: 20px;
@@ -353,38 +367,103 @@ margin-top: -20px;
     border-radius: 5px;
 }
 .close-button{
-    color: white;
-    background-color: gray;
+    color:gray;
+    font-size: x-large;
+    appearance: none;
     width: 30px;
+    border: none;
     height: 30px;
-    border-radius: 8px;
-    margin-left: 450px;
-    margin-top: -50px;
+    position: absolute;
+    left: 1090px;
+    top: 30px;
+    cursor: pointer;
 
 }
 .heading-form{
     color: white;
 }
 .form-content {
-    background-color: #fff;
-    padding: 20px;
+    background-color:rgba(204,204,204,1.0);
+    padding: 30px;
+    font-style: normal;
+    font-family: 'Lexend Deca', sans-serif;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    word-break: break-word;
+    font-weight: 300;
     border-radius: 5px;
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-texture-bg.jpg');
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    line-height: 1;
+    color: #2e475d;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.btnform-heading{
+    font-size: 40px;
+    margin-top: -10px;
 }
 
-.form-label {
+.form-group .form-label {
 
     font-size: larger;
+   position: absolute;
+   left: 480px;
+   
 }
+.form-group .form-label1 {
+
+    font-size: larger;
+   position: absolute;
+   left: 800px;
+   
+}
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .full-name{
+    display: flex;
+  }
+  
+  .form-label {
+
+   text-align: left;
+  }
 
 .form-input{
     width: 100%;
-    padding: 10px;
-    margin-right: 20px;
-    margin: 5px 0;
+    height: 70%;
+    margin-top: 28px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-input1{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-input2{
+    width: 100%;
+    height: 70%;
+    margin-top: 28px;
+    margin-left: 90px;
+    padding-left: 10px;
+
+    /* margin-right: 20px; */
+    /* margin: 5px 0; */
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
@@ -395,18 +474,16 @@ margin-top: -20px;
 }
 
 .form-button {
-    background-color: #007BFF;
+    background-color: orangered;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+    margin-top: 20px;
 }
 
-.form-button:hover {
-    background-color: #0056b3;
-}
 
 @media screen and (max-width: 768px) {
     .container1 {
@@ -417,6 +494,7 @@ margin-top: -20px;
     }
     .form-div {
         width: 100%;
+        height: 100%;
         margin-left: 0;
     }
     .corporate-div {
@@ -426,19 +504,24 @@ margin-top: -20px;
     }
     .container2 {
         margin-top: -75px;
-        background-size: auto;
+        background-size: cover;
+        background-attachment: fixed;
         padding-left: 10px;
          
+    }
+    [ alt="banner-image"]{
+       margin-left: 30px;
+       width: 80%;
+       height: 80%;
     }
 
     .container3 {
         margin-top: 10px;
-        background-size: 100%; 
         padding-bottom: 20px; 
-        padding-top: 20px; 
+        padding-top: 20px;  
     }
     .points2 {
-        margin-left: 0;
+        margin-left: 20px;
     }
     .btn,
     .btn1,
@@ -487,20 +570,21 @@ margin-top: -20px;
         height: 100%;
     }
     .container4{
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
+        text-align: left;
     }
     [alt="Prasad-image"]{
-        width: 70%;
+        width: 100%;
         height: 70%;
     }
     [alt="Shalini-image"]{
-        width: 70%;
+        width: 90%;
         height: 70%;
     }
     [alt="rajesh-image"]{
-        width: 70%;
+        width: 90%;
         height: 70%;
     }
     .information{
@@ -513,19 +597,57 @@ margin-top: -20px;
         text-align: center;
     }
     .form-content {
-        max-width: 80%;
+        max-width: 100%;
         margin-bottom: 20px;
         margin-right: 40px;
+        margin-top: -100px;
+        /* padding: 20px; */
 
+    }
+    .btnform-heading{
+        font-size: 20px;
+    }
+    .form-group .form-label1 {
+        /* margin-left: 500px; */
+        position: absolute;
+        left: 45%;
+
+    }
+    .form-group .form-label{
+        position: absolute;
+        left: 8%;
     }
     
-    .close-button{
-       width: 10%;
-       height: 100%;
-      margin-left: 200px;
-      margin-top: -20px;
+    .form-input{
+        width: 100%;
+        height: 80%;
+        margin-left: -30px;
+        padding-left: 10px;
+        padding-right: 20px;
 
     }
+    .form-input1{
+        width: 100%;
+        height: 80%;
+        margin-left: -30px;
+
+    }
+    .form-input2{
+        width: 100%;
+        height: 80%;
+        margin-left: 5px;
+
+    }
+    .form-button {
+        width: 80%;
+        font-size: 15px;
+    }
+ .close-button{
+      position: absolute;
+      left: 72%;
+      top: -70px
+
+    } 
 }
  
   
